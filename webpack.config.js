@@ -1,4 +1,4 @@
-const KotlinWebpackPlugin = require('kotlin-webpack-plugin');
+const KotlinWebpackPlugin = require('@jetbrains/kotlin-webpack-plugin');
 var path = require('path');
 var webpack = require('webpack');
 

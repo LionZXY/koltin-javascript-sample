@@ -4,17 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-simple": "rm -rf dist && webpack --config webpack.config",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile-simple": "rm -rf dist && webpack --config webpack.config"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webpack-kotlin-loader": "^0.3.2"
-  },
   "dependencies": {
+    "@jetbrains/kotlin-webpack-plugin": "^1.2.1",
     "kotlin": "^1.2.10",
-    "kotlin-webpack-plugin": "^1.0.8",
     "source-map-loader": "^0.2.3",
     "webpack": "^3.10.0"
   }
